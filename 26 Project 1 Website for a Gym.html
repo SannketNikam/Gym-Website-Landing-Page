@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- Javascript -->
+    <link rel="script" href="../JS/javascript.js">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Gold's Gym</title>
+    <!-- <style>
+        /* CSS Reset */
+        body {
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+            /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            /* background-color: black; */
+            margin: 0px;
+            padding: 0px;
+             background-image: url("../Images/abc.jpg");
+        }
+
+        .left {
+            color: black;
+            display: inline-block;
+            position: fixed;
+            left: 60px;
+            top: 20px;
+            /* border: 2px solid red; */
+        }
+
+        .left img {
+            width: 90px;
+            height: 90px;
+            /* filter: invert(100%); */
+        }
+
+        p {
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            /* list-style: none; */
+
+        }
+
+        .left div {
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 48%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+        }
+
+        .right {
+            font-family: 'Open Sans', sans-serif;
+            position: fixed;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            text-decoration: none;
+            padding: 17px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(0, 255, 0);
+        }
+
+        .btn {
+            /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+            font-family: 'Open Sans', sans-serif;
+            margin: 14px 7px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid darkgreen;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(26, 160, 77);
+        }
+
+        .container {
+            border: 3px solid rosybrown;
+            margin: 230px 165px;
+            padding: 85px 85px;
+            width: 33%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 5px;
+            border: 2px solid black;
+            margin: 10px auto;
+            font-size: 14px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: gold;
+            margin: 0px;
+        }
+
+        .container button {
+            font-family: 'Open Sans', sans-serif;
+            display: block;
+            width: 83%;
+            margin: 24px auto;
+        }
+    </style> -->
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left Box for Logo -->
+        <div class="left">
+            <a href="#">
+                <img src="../Images/Goldlogo.png" alt="">
+            </a>
+            <p>Gold's Gym</p>
+        </div>
+
+
+        <!-- Mid Box for Navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Workout & Diet Plans</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right Box for Buttons -->
+        <div class="right">
+            <button class="btn">Log In</button>
+            <button class="btn">Sign Up</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Start your fitness transformation now!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your first name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your last name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your height">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your weight">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" id="" placeholder="Enter your mobile number">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" id="" placeholder="Enter your email-id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
